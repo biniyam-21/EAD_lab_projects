@@ -30,11 +30,11 @@ public class AdditionServlet extends HttpServlet {
             response.getWriter().println("<link rel=\"stylesheet\" href='style.css' >");
            
             response.getWriter().println("<div class=\"container\">");
-            response.getWriter().println("<div class=\"cookiesContent\">");
+            response.getWriter().println("<div class=\"Content\">");
             response.getWriter().println("<h1>The result is:</h1>");
-            response.getWriter().println("<h3>" + result + "</h3>");
+            response.getWriter().println("<h2>" + result + "</h2>");
             response.getWriter().println("<a href=\"index.html\">");
-            response.getWriter().println("<button>try again</button>");
+            response.getWriter().println("<button class='button'>try again</button>");
             response.getWriter().println("</a>");
             response.getWriter().println("</div>");
             response.getWriter().println("</div>");
